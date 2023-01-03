@@ -138,9 +138,9 @@ button a{
        justify-content: center;
        
     }
-    /* .field input{
-        width: 3px;
-    } */
+    .field input{
+        width: 270px;
+    }
     .middle{
         
         font-size: small;
@@ -151,7 +151,7 @@ button a{
     .field img{
         position:absolute;
         padding-top: 42px;
-        padding-left: 100px;
+        padding-left: 68px;
         width: 18px;
         height: 18px;
     }
@@ -163,15 +163,65 @@ button a{
         font-size: small;
     }
     #btn1 {
-        width: 175px;
+        width: 195px;
     }
     #btn2 {
-        width: 175px;
+        width: 195px;
     }
     #l4{
         font-size: small;
     }
     .container p{
         text-align: center;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .container  {
+       display: block;
+       float: none;  
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+    .field{
+       justify-content: center;
+       
+    }
+    .field input{
+        width: 220px;
+    }
+    .middle{
+        
+        font-size: small;
+        justify-content: center;
+        display: grid;
+        
+    }
+    .field img{
+        position:absolute;
+        padding-top: 42px;
+        padding-left: 92px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .right label a{
+        justify-content: end;
+    }
+    button a{
+        font-size: small;
+    }
+    #btn1 {
+        width: 180px;
+    }
+    #btn2 {
+        width: 180px;
+    }
+    #l4{
+        font-size: small;
+    }
+    .container h1{
+        text-align: center;
+        font-size: 25px;
+        
     }
   }
