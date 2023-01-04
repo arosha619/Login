@@ -6,7 +6,7 @@
 .container form{
     display: grid;
     justify-content: center;
-    margin: 150px auto;
+    margin: 10px auto;
     padding: 0px 45px;
     border: 0.5px solid;
     background-color: rgba(36, 160, 218, 0.245);
@@ -224,4 +224,4 @@ button a{
         font-size: 25px;
         
     }
-  }
+  } 
