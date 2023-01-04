@@ -1,6 +1,7 @@
 .container{
     display: grid; 
     justify-content: center;
+    background: #000;
     
 }
 .container form{
